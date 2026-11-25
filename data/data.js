@@ -1,9 +1,9 @@
-﻿window.__BFS_DATA__ = {
+window.__BFS_DATA__ = {
   "Meta": {
-    "Title": "Best free streaming sites - freebeststreaming.com",
+    "Title": "Best free streaming sites - BestFreeStreaming.org",
     "Description": "Find the best free streaming sites (2026)",
     "LastUpdated": "06 Nov 2026",
-    "Canonical": "https://www.freebeststreaming.com/"
+    "Canonical": "https://www.bestfreestreaming.org/"
   },
   "Sites": [
     {

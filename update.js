@@ -20,11 +20,18 @@ function toRel(u){ return String(u==null?"":u).replace(/^\/+/,""); }
 
 // SEO content (ported)
 const homeSeo = {
-  lead: "freebeststreaming.com is a hand-checked, constantly updated directory of the best free streaming " +
-    "sites for movies, TV shows, anime, sports, torrents and books. Every platform below is tested for " +
-    "speed, video quality, ad intrusiveness and whether it actually works without an account - so you " +
-    "spend your time watching, not troubleshooting.",
+  lead: "freebeststreaming.com is a hand-checked directory of the best free streaming site alternatives for movies, " +
+    "TV shows, anime, sports, torrents and books. If your usual site shut down or got blocked, find working " +
+    "replacements here - every platform is tested for speed, quality, ads and whether it works without an account, " +
+    "so you spend your time watching, not troubleshooting.",
   sections: [
+    { heading:"Find alternatives to dead or blocked streaming sites", paragraphs:[
+      "Streaming sites shut down or get blocked all the time - from movie sites to sports hubs like Score808, " +
+      "Buffstreams and Streamed.pk. freebeststreaming.com keeps a working list of alternatives for every " +
+      "category, so you always have a fallback when your usual platform disappears.",
+      "Browse the sections below or jump straight to the category you need: movies, TV shows, anime, sports, " +
+      "torrents, indexes and books. Each page is curated and ranked the same way as this main list."
+    ], bullets:["Best free movie streaming site alternatives","Best free TV show streaming site alternatives","Best free anime streaming site alternatives","Best free sports streaming site alternatives (Score808, Buffstreams, Streamed.pk and more)","Best free torrent streaming site alternatives","Best free streaming index alternatives","Best free book and eBook site alternatives"]},
     { heading:"How we rank free streaming websites", paragraphs:[
       "We update this list regularly and drop any site the moment it stops working, gets buried in pop-ups, " +
       "or starts hiding its library behind a paywall. Our ranking is based on real, repeatable criteria rather " +
@@ -46,6 +53,7 @@ const homeSeo = {
     ], bullets:["Best free movie streaming sites for full-length films","Best free TV show streaming sites for series and current seasons","Best free anime streaming sites for subbed and dubbed episodes","Best free sports streaming sites for live events and replays","Best free torrent streaming sites for P2P playback","Best free streaming indexes for searchable link libraries"]}
   ],
   faqs:[
+    {q:"What are the best alternatives to dead streaming sites?", a:"freebeststreaming.com lists working alternatives for movies, TV shows, anime, sports, torrents and books. Start on the homepage for the top picks, or open a category page for a focused list."},
     {q:"What is the best free streaming site in 2026?", a:"The best site depends on what you watch, but the platforms ranked at the top of this page currently offer the strongest mix of a large library, 1080p playback, and light ads. We re-check and re-order the list often."},
     {q:"Are free streaming sites legal?", a:"Streaming sites exist in a legal grey area in many countries. We do not host any content; we only link to third-party platforms. Always check the laws where you live before using them."},
     {q:"Do I need a VPN to stream for free?", a:"A VPN is not required, but it can reduce ISP throttling, hide your activity, and help if a site is blocked in your region. Many viewers use one for privacy."},
@@ -71,10 +79,18 @@ const categorySeo = {
     faqs:[{q:"What is the best free anime site?",a:"The top anime site here balances a large sub/dub catalogue with fast updates and light ads."},
       {q:"Can I watch anime with English subtitles for free?",a:"Yes - most listed sites offer English subs, and many include English dubs as well."},
       {q:"Are anime simulcasts available free?",a:"Several platforms post new episodes within days of their Japanese broadcast. Availability varies by series."}]},
-  sports:{lead:"The best free sports streaming sites for live events, match replays and highlights - covering football, basketball, cricket, motorsport and more.",
-    sections:[{heading:"Stream live sports for free",paragraphs:["Live events are the toughest test for any streaming site, so reliability matters most. The platforms below are chosen for stable streams, working schedules and multiple quality options during big matches.","Always line up a backup link before kick-off, and keep an ad-blocker running to avoid pop-ups during play."],bullets:[]},
-      {heading:"Get the best live sports experience",paragraphs:[],bullets:["Check the schedule early and test the stream before the event","Have a second source ready as a fallback","Lower the resolution if you hit buffering","Mute chat overlays on busy pages to save bandwidth"]}],
-    faqs:[{q:"Where can I watch live sports for free?",a:"The top-ranked sports sites on this page stream live events with working schedules and multiple quality options."},
+  sports:{lead:"Looking for working alternatives to Score808, Buffstreams, Streamed.pk, SportSurge, CricHD and other dead sports streaming sites? This curated, regularly updated list covers the best free sports streaming sites for live football, basketball, cricket, motorsport, boxing, UFC and more - ranked by reliability, stream quality and ad behaviour. If your usual site stopped working, start here.",
+    sections:[
+      {heading:"Best alternatives to dead sports streaming sites",paragraphs:["Popular platforms like Score808, Buffstreams, Streamed.pk, SportSurge, FirstRowSports, VIPBox, BatmanStream, HesGoal, SoccerStreams, Streameast, CrackStreams and MethStreams shut down or get blocked regularly. When that happens, finding a working replacement fast matters. The sports streaming sites below are hand-checked and stay online, so you can keep watching live events without hunting through dead links.","Whether you need a Score808 alternative, a Buffstreams replacement or a Streamed.pk mirror that actually works, compare the ranked options on this page and pick the one with the best ad-score for your device."],
+        bullets:["Score808 alternative - live football and soccer streams","Buffstreams alternative - NFL, NBA, NHL, MLB and UFC","Streamed.pk alternative - multi-sport live events","SportSurge alternative - clean, ad-light sports streams","CricHD alternative - cricket live streams and highlights","VIPBox / FirstRowSports alternative - working live sports links","Streameast / CrackStreams / MethStreams alternative - boxing and MMA","HesGoal / SoccerStreams alternative - football live streams"]},
+      {heading:"Stream live sports for free",paragraphs:["Live events are the toughest test for any streaming site, so reliability matters most. The platforms below are chosen for stable streams, working schedules and multiple quality options during big matches.","Always line up a backup link before kick-off, and keep an ad-blocker running to avoid pop-ups during play."],bullets:[]},
+      {heading:"Get the best live sports experience",paragraphs:[],bullets:["Check the schedule early and test the stream before the event","Have a second source ready as a fallback","Lower the resolution if you hit buffering","Mute chat overlays on busy pages to save bandwidth","Use a VPN if your usual sports site is geo-blocked"]}],
+    faqs:[
+      {q:"What are the best alternatives to Score808?",a:"The top-ranked sports sites on this page are reliable Score808 alternatives for live football and soccer, with working schedules and multiple quality options."},
+      {q:"Is Buffstreams still working?",a:"Buffstreams and similar sites go down often. The Buffstreams alternatives listed here are checked regularly and stay online for NFL, NBA, NHL, MLB and UFC."},
+      {q:"What is the best Streamed.pk alternative?",a:"The Streamed.pk alternatives on this page cover multi-sport live events with stable streams and light ads."},
+      {q:"What is the best Streameast alternative?",a:"The Streameast alternatives on this page stream live sports, boxing and MMA with working links and light ads."},
+      {q:"Where can I watch live sports for free?",a:"The top-ranked sports sites on this page stream live events with working schedules and multiple quality options."},
       {q:"Why do free sports streams buffer?",a:"Live events attract huge traffic, so lower the resolution or switch to a backup link when a stream struggles."},
       {q:"Can I watch replays for free?",a:"Many listed sites keep match replays and highlights alongside their live coverage."}]},
   torrent:{lead:"The best free torrent streaming sites for streaming torrents directly in your browser with no full download - ranked for speed, safety and ad cleanliness.",
@@ -238,7 +254,7 @@ const homeJsonLd = JSON.stringify({"@context":"https://schema.org","@type":"Item
 const homeFaqLd = JSON.stringify({"@context":"https://schema.org","@type":"FAQPage",mainEntity:homeSeo.faqs.map(f=>({"@type":"Question",name:f.q,acceptedAnswer:{"@type":"Answer",text:f.a}}))});
 const homeScripts = `<script type="application/ld+json">${homeJsonLd}</scr`+`ipt>\n<script type="application/ld+json">${homeFaqLd}</scr`+`ipt>`;
 
-fs.writeFileSync(path.join(ROOT,"index.html"), layout({title:"Best Free Streaming Sites (2026) - Watch Movies & TV Shows Online Free",desc:"Discover the best free streaming sites for movies, TV shows, anime, sports, torrents and books. Hand-checked, ad-scored and updated for 2026 - no account needed.",keys:"best free streaming sites, free streaming sites 2026, watch movies free, free movie sites, free tv streaming, free anime streaming, free sports streaming",canonical:seoBase()+"/",robots:"index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",bodyHtml:homeBody,scriptsHtml:homeScripts}), "utf8");
+fs.writeFileSync(path.join(ROOT,"index.html"), layout({title:"Best Free Streaming Sites (2026) - Movies, TV & Sports Free",desc:"Discover the best free streaming site alternatives for movies, TV, anime, sports and books. Score808, Buffstreams & Streamed.pk alternatives. Updated for 2026.",keys:"best free streaming sites, free streaming site alternatives, free streaming sites 2026, watch movies free, score808 alternative, buffstreams alternative, streamed.pk alternative, free sports streaming",canonical:seoBase()+"/",robots:"index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",bodyHtml:homeBody,scriptsHtml:homeScripts}), "utf8");
 console.log("wrote index.html");
 
 // Categories
@@ -246,7 +262,7 @@ const catMeta = {
   "Movies":{title:"Best Free Movie Streaming Sites (2026) - Watch Movies Online Free",desc:"The best free movie streaming sites of 2026, hand-checked and ad-scored. Watch new releases and classics online free in HD - no account required.",keys:"free movie streaming sites, watch movies online free, free movies, best free movie sites, stream movies free 2026"},
   "TV Shows":{title:"Best Free TV Show Streaming Sites (2026) - Watch Series Online Free",desc:"The best free TV show streaming sites for 2026. Stream current seasons, complete series and box sets online free - reviewed and ad-scored.",keys:"free tv show streaming sites, watch tv shows online free, free series streaming, best free tv sites 2026"},
   "Anime":{title:"Best Free Anime Streaming Sites (2026) - Watch Anime Online Free",desc:"The best free anime streaming sites for 2026. Watch subbed and dubbed anime online free, including simulcasts - ranked and ad-scored.",keys:"free anime streaming sites, watch anime online free, anime sub dub free, best free anime sites 2026"},
-  "Sports":{title:"Best Free Sports Streaming Sites (2026) - Watch Live Sports Online Free",desc:"The best free sports streaming sites for 2026. Watch live football, basketball, cricket and more online free with working schedules.",keys:"free sports streaming sites, live sports streaming free, watch sports online free, free live sports 2026"},
+  "Sports":{title:"Best Free Sports Streaming Sites (2026) - Score808, Buffstreams & Streamed.pk Alternatives",desc:"Working alternatives to Score808, Buffstreams, Streamed.pk, SportSurge and Streameast. The best free sports streaming sites for 2026 - live football, basketball, cricket, boxing, UFC and more, ranked and ad-scored.",keys:"free sports streaming sites, score808 alternative, buffstreams alternative, streamed.pk alternative, streameast alternative, sport surge alternative, free live sports 2026, watch sports online free"},
   "Torrent":{title:"Best Free Torrent Streaming Sites (2026) - Stream Torrents Online",desc:"The best free torrent streaming sites for 2026. Stream torrents in your browser without downloading - ranked for speed, safety and ads.",keys:"free torrent streaming sites, stream torrents online, torrent streaming, best torrent sites 2026"},
   "Indexes":{title:"Best Free Streaming Indexes (2026) - Search Free Streaming Links",desc:"The best free streaming indexes for 2026. Searchable link libraries that help you find any movie or show across many sources.",keys:"free streaming indexes, streaming link index, search streaming sites, best streaming index 2026"},
   "Books":{title:"Best Free Book Streaming Sites (2026) - Read eBooks Online Free",desc:"The best free book and eBook streaming sites for 2026. Read and download classic and modern books, plus audiobooks, online free.",keys:"free book streaming sites, read books online free, free ebook download, free audiobooks 2026"}
